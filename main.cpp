@@ -3,6 +3,7 @@
 using namespace std;
 
 int summation(int a, int b);
+int difference(int a, int b);
 
 int main() {
     cout << "Hello Marvz!" << endl;
@@ -10,4 +11,8 @@ int main() {
 
 int summation(int a, int b) {
     return a + b; 
+}
+
+int difference(int a, int b) {
+    return a - b;
 }
